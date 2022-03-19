@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="survivor_perks">
+        <item>iconperks_adrenaline_0;Адреналин</item>
+        <item>iconperks_pharmacy;Аптекарь</item>
+        <item>iconperks_offtherecord;Без огласки</item>
+        <item>iconperks_nomither;Без сожаления</item>
+        <item>iconperks_vigil;Бессонница</item>
+        <item>iconperks_quickandquiet;Быстрый и тихий</item>
+        <item>iconperks_luckybreak;Везение</item>
+        <item>iconperks_visionary;Визионер</item>
+        <item>iconperks_bettertogether;Владение обстановкой</item>
+        <item>iconperks_innerstrength;Внутреннее исцеление</item>
+        <item>iconperks_secondwind;Возрождение</item>
+        <item>iconperks_tenacity;Выдержка</item>
+        <item>iconperks_stakeout;Выслеживание подозреваемого</item>
+        <item>iconperks_lithe;Гибкость</item>
+        <item>iconperks_urbanevasion;Городской бег</item>
+        <item>iconperks_booncircleofhealing;Дар: круг исцеления</item>
+        <item>iconperks_boonshadowstep;Дар: уход в тень</item>
+        <item>iconperks_boonexponential;Дар: экспонента</item>
+        <item>iconperks_dejavu;Дежавю</item>
+        <item>iconperks_detectiveshunch;Детективное чутье</item>
+        <item>iconperks_diversion;Диверсия</item>
+        <item>iconperks_rookiespirit;Дух новичка</item>
+        <item>iconperks_solesurvivor;Единственный выживший</item>
+        <item>iconperks_ironwill;Железная воля</item>
+        <item>iconperks_fasttrack;За чужой счет</item>
+        <item>iconperks_openhanded;Игра в открытую</item>
+        <item>iconperks_appraisal;Изучение</item>
+        <item>iconperks_distortion;Искажение</item>
+        <item>iconperks_correctiveaction;Корректировка</item>
+        <item>iconperks_deadhard;Крепкий орешек</item>
+        <item>iconperks_bloodpact;Кровавый договор</item>
+        <item>iconperks_kindred;Кровные узы</item>
+        <item>iconperks_saboteur2;Крушитель</item>
+        <item>iconperks_lightweight;Легковес</item>
+        <item>iconperks_leader;Лидер</item>
+        <item>iconperks_balancedlanding;Ловкое приземление</item>
+        <item>iconperks_anymeansnecessary;Любыми средствами</item>
+        <item>iconperks_plunderersinstinct;Мародёрское чутье</item>
+        <item>iconperks_smallgame;Мелкая дичь</item>
+        <item>iconperks_spinechill;Мурашки по спине</item>
+        <item>iconperks_weregonnaliveforever;Мы будем жить вечно</item>
+        <item>iconperks_wellmakeit;Мы справимся</item>
+        <item>iconperks_hope;Надежда</item>
+        <item>iconperks_headon;Напролом</item>
+        <item>iconperks_unbreakable;Несокрушимый</item>
+        <item>iconperks_nooneleftbehind;Никто не остался позади</item>
+        <item>iconperks_soulguard;Оберег души</item>
+        <item>iconperks_redherring;Обман во благо</item>
+        <item>iconperks_objectofobsession;Объект одержимости</item>
+        <item>iconperks_borrowedtime;Одолженное время</item>
+        <item>iconperks_deliverance;Освобождение</item>
+        <item>iconperks_leftbehind;Оставленный позади</item>
+        <item>iconperks_powerstruggle;Отчаянная борьба</item>
+        <item>iconperks_desperatemeasures;Отчаянные меры</item>
+        <item>iconperks_uptheante;Повысить ставки</item>
+        <item>iconperks_botanyknowledge;Познания в ботанике</item>
+        <item>iconperks_breakdown;Поломка</item>
+        <item>iconperks_resurgence;Поправка</item>
+        <item>iconperks_dancewithme;Потанцуй со мной</item>
+        <item>iconperks_premonition;Предчувствие</item>
+        <item>iconperks_overcome;Преодоление</item>
+        <item>iconperks_buckleup;Пристегнись</item>
+        <item>iconperks_mettleofman;Проверка на прочность</item>
+        <item>iconperks_wakeup;Проснись</item>
+        <item>iconperks_counterforce;Противодействие</item>
+        <item>iconperks_provethyself;Прояви себя</item>
+        <item>iconperks_poised;Равновесие</item>
+        <item>iconperks_forthepeople;Ради людей</item>
+        <item>iconperks_flipflop;Раскачка</item>
+        <item>iconperks_decisivestrike;Решающий удар</item>
+        <item>iconperks_camaraderie;Родство</item>
+        <item>iconperks_selfcare;Сам себе доктор</item>
+        <item>iconperks_fixated;Самопознание</item>
+        <item>iconperks_self_preservation;Самосохранение</item>
+        <item>iconperks_autodidact;Самоучка</item>
+        <item>iconperks_flashbang;Световая граната</item>
+        <item>iconperks_bond;Связь</item>
+        <item>iconperks_slipperymeat2;Скользкое мясо</item>
+        <item>iconperks_repressedalliance;Скрытый союз</item>
+        <item>iconperks_solidarity;Солидарность</item>
+        <item>iconperks_empathy;Сострадание</item>
+        <item>iconperks_calmspirit;Спокойствие духа</item>
+        <item>iconperks_sprintburst;Спринтер</item>
+        <item>iconperks_bitethebullet;Стиснув зубы</item>
+        <item>iconperks_builttolast;Строим на века</item>
+        <item>iconperks_darksense;Темное чувство</item>
+        <item>iconperks_technician;Техник</item>
+        <item>iconperks_alert;Тревога</item>
+        <item>iconperks_aceinthehole;Туз в рукаве</item>
+        <item>iconperks_smashhit;Ударный забег</item>
+        <item>iconperks_deception;Уловка</item>
+        <item>iconperks_windowsofopportunity;Уникальная возможность</item>
+        <item>iconperks_streetwise;Уроки улиц</item>
+        <item>iconperks_resilience;Устойчивость</item>
+        <item>iconperks_aftercare;Уход за больными</item>
+        <item>iconperks_breakout;Форсаж</item>
+        <item>iconperks_blastmine;Фугасная мина</item>
+        <item>iconperks_babysitter;Хранитель</item>
+        <item>iconperks_boilover;Через край</item>
+        <item>iconperks_thisisnothappening;Этому не бывать</item>
+        <item>iconperks_clairvoyance;Ясновидение</item>
+
+        <item>iconperks_parentalguidance;Родительская забота</item>
+        <item>iconperks_empathicconnection;Эмпатическая связь</item>
+        <item>iconperks_boondarktheory;Дар: теория мрака</item>
+    </string-array>
+</resources>

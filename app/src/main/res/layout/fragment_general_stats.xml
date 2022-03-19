@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.skillcheck.SkillCheckFragment">
+
+    <ImageView
+        android:id="@+id/rank_surv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/surv_grade_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="#808080"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rank_surv"
+        app:layout_constraintEnd_toEndOf="@+id/rank_surv"
+        app:layout_constraintStart_toStartOf="@+id/rank_surv"
+        app:layout_constraintTop_toTopOf="@+id/rank_surv"
+        app:layout_constraintVertical_bias="0.458" />
+
+    <ImageView
+        android:id="@+id/rank_killer"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/rank_surv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rankTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/font_intro"
+        android:text="@string/DBD_rank"
+        android:textColor="#A0A0A0"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/rank_killer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rank_killer" />
+
+    <ListView
+        android:id="@+id/generalStatsListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:divider="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rank_killer" />
+
+    <TextView
+        android:id="@+id/killer_grade_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="#808080"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rank_killer"
+        app:layout_constraintEnd_toEndOf="@+id/rank_killer"
+        app:layout_constraintStart_toStartOf="@+id/rank_killer"
+        app:layout_constraintTop_toTopOf="@+id/rank_killer"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/favouritePlayers"
+        android:layout_width="0dp"
+        android:layout_height="71dp"
+        android:background="#000000"
+        android:clickable="true"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center|center_horizontal"
+        android:letterSpacing="0.08"
+        android:lineSpacingExtra="12.7sp"
+        android:text="@string/favourite_players"
+        android:textColor="@color/link_text_color"
+        android:textSize="15.2sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/generalStatsListView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

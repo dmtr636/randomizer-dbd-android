@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".ui.randomizer.KillerRandomizerFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/top_bar_bg"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/challenges_top_bar_icon" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/open_sans_bold"
+            android:letterSpacing="0.08"
+            android:text="@string/survs"
+            android:textAllCaps="true"
+            android:textColor="#fefefe"
+            android:textSize="15.2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/challengesList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/resetButtonBg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+    <ImageView
+        android:id="@+id/resetButtonBg"
+        android:layout_width="0dp"
+        android:layout_height="71dp"
+        android:src="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/resetButtonText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:text="@string/reset_progress"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/link_text_color"
+        android:textSize="15.2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/resetButtonBg"
+        app:layout_constraintEnd_toEndOf="@+id/resetButtonBg"
+        app:layout_constraintStart_toStartOf="@+id/resetButtonBg"
+        app:layout_constraintTop_toBottomOf="@+id/challengesList" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

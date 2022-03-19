@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="survivor_perks">
+        <item>iconperks_aceinthehole;Ace In The Hole</item>
+        <item>iconperks_adrenaline_0;Adrenaline</item>
+        <item>iconperks_aftercare;Aftercare</item>
+        <item>iconperks_alert;Alert</item>
+        <item>iconperks_anymeansnecessary;Any means necessary</item>
+        <item>iconperks_appraisal;Appraisal</item>
+        <item>iconperks_autodidact;Autodidact</item>
+        <item>iconperks_balancedlanding;Balanced Landing</item>
+        <item>iconperks_bitethebullet;Bite the Bullet</item>
+        <item>iconperks_blastmine;Blast Mine</item>
+        <item>iconperks_bloodpact;Blood Pact</item>
+        <item>iconperks_boilover;Boil Over</item>
+        <item>iconperks_bond;Bond</item>
+        <item>iconperks_booncircleofhealing;Boon: Circle of Healing</item>
+        <item>iconperks_boonexponential;Boon: Exponential</item>
+        <item>iconperks_boonshadowstep;Boon: Shadow Step</item>
+        <item>iconperks_borrowedtime;Borrowed Time</item>
+        <item>iconperks_botanyknowledge;Botany Knowledge</item>
+        <item>iconperks_breakdown;Breakdown</item>
+        <item>iconperks_breakout;Breakout</item>
+        <item>iconperks_buckleup;Buckle Up</item>
+        <item>iconperks_builttolast;Built to Last</item>
+        <item>iconperks_calmspirit;Calm Spirit</item>
+        <item>iconperks_clairvoyance;Clairvoyance</item>
+        <item>iconperks_correctiveaction;Corrective Action</item>
+        <item>iconperks_counterforce;Counterforce</item>
+        <item>iconperks_dancewithme;Dance with me</item>
+        <item>iconperks_darksense;Dark Sense</item>
+        <item>iconperks_deadhard;Dead Hard</item>
+        <item>iconperks_deception;Deception</item>
+        <item>iconperks_decisivestrike;Decisive Strike</item>
+        <item>iconperks_dejavu;Deja Vu</item>
+        <item>iconperks_deliverance;Deliverance</item>
+        <item>iconperks_desperatemeasures;Desperate Measures</item>
+        <item>iconperks_detectiveshunch;Detective\'s Hunch</item>
+        <item>iconperks_distortion;Distortion</item>
+        <item>iconperks_diversion;Diversion</item>
+        <item>iconperks_empathy;Empathy</item>
+        <item>iconperks_fasttrack;Fast Track</item>
+        <item>iconperks_flashbang;Flashbang</item>
+        <item>iconperks_flipflop;Flip-Flop</item>
+        <item>iconperks_forthepeople;For The People</item>
+        <item>iconperks_babysitter;Guardian</item>
+        <item>iconperks_headon;Head On</item>
+        <item>iconperks_hope;Hope</item>
+        <item>iconperks_innerstrength;Inner healing</item>
+        <item>iconperks_ironwill;Iron Will</item>
+        <item>iconperks_kindred;Kindred</item>
+        <item>iconperks_camaraderie;Kinship</item>
+        <item>iconperks_leader;Leader</item>
+        <item>iconperks_leftbehind;Left Behind</item>
+        <item>iconperks_lightweight;Lightweight</item>
+        <item>iconperks_lithe;Lithe</item>
+        <item>iconperks_luckybreak;Lucky break</item>
+        <item>iconperks_mettleofman;Mettle of man</item>
+        <item>iconperks_nomither;No Mither</item>
+        <item>iconperks_nooneleftbehind;No One Left Behind</item>
+        <item>iconperks_objectofobsession;Object Of Obsession</item>
+        <item>iconperks_offtherecord;Off The Record</item>
+        <item>iconperks_openhanded;Open Handed</item>
+        <item>iconperks_overcome;Overcome</item>
+        <item>iconperks_pharmacy;Pharmacy</item>
+        <item>iconperks_plunderersinstinct;Plunderer\'s Instinct</item>
+        <item>iconperks_poised;Poised</item>
+        <item>iconperks_powerstruggle;Power struggle</item>
+        <item>iconperks_premonition;Premonition</item>
+        <item>iconperks_provethyself;Prove Thyself</item>
+        <item>iconperks_quickandquiet;Quick &amp; Quiet</item>
+        <item>iconperks_redherring;Red Herring</item>
+        <item>iconperks_secondwind;Renewal</item>
+        <item>iconperks_repressedalliance;Repressed alliance</item>
+        <item>iconperks_resilience;Resilience</item>
+        <item>iconperks_resurgence;Resurgence</item>
+        <item>iconperks_rookiespirit;Rookie Spirit</item>
+        <item>iconperks_saboteur2;Saboteur</item>
+        <item>iconperks_selfcare;Self Care</item>
+        <item>iconperks_fixated;Self-aware</item>
+        <item>iconperks_self_preservation;Self-Preservation</item>
+        <item>iconperks_bettertogether;Situational awareness</item>
+        <item>iconperks_slipperymeat2;Slippery Meat</item>
+        <item>iconperks_smallgame;Small Game</item>
+        <item>iconperks_smashhit;Smash Hit</item>
+        <item>iconperks_solesurvivor;Sole Survivor</item>
+        <item>iconperks_solidarity;Solidarity</item>
+        <item>iconperks_soulguard;Soul guard</item>
+        <item>iconperks_spinechill;Spine Chill</item>
+        <item>iconperks_sprintburst;Sprint Burst</item>
+        <item>iconperks_stakeout;Stake Out</item>
+        <item>iconperks_streetwise;Streetwise</item>
+        <item>iconperks_technician;Technician</item>
+        <item>iconperks_tenacity;Tenacity</item>
+        <item>iconperks_thisisnothappening;This Is Not Happening</item>
+        <item>iconperks_unbreakable;Unbreakable</item>
+        <item>iconperks_uptheante;Up The Ante</item>
+        <item>iconperks_urbanevasion;Urban Evasion</item>
+        <item>iconperks_vigil;Vigil</item>
+        <item>iconperks_visionary;Visionary</item>
+        <item>iconperks_wakeup;Wake Up!</item>
+        <item>iconperks_weregonnaliveforever;We’re gonna live forever</item>
+        <item>iconperks_wellmakeit;We\'ll Make It</item>
+        <item>iconperks_windowsofopportunity;Windows of Opportunity</item>
+
+        <item>iconperks_parentalguidance;Parental Guidance</item>
+        <item>iconperks_empathicconnection;Empathic Connection</item>
+        <item>iconperks_boondarktheory;Boon: Dark Theory</item>
+    </string-array>
+</resources>

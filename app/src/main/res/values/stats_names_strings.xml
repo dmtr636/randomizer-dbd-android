@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--General-->
+    <string name="DBD_rank">Rank</string>
+    <string name="DBD_BloodwebPoints">Total Bloodpoints</string>
+    <string name="DBD_MaxBloodwebPointsOneCategory">Bloodpoints spent on one character</string>
+    <string name="DBD_BloodwebMaxPrestigeLevel">Prestige level reached</string>
+    <string name="DBD_UnlockRanking">Skill level</string>
+    <string name="DBD_BurnOffering_UltraRare">Ultra Rare offerings burned</string>
+    <string name="DBD_TotalAchievements">Total Achievements</string>
+
+
+    <!--Killer-->
+    <string name="DBD_SlasherMaxScoreByCategory">Perfect games (5k+ points in all categories)</string>
+    <string name="DBD_SlasherFullLoadout">Full loadout trials</string>
+    <string name="DBD_SacrificedCampers">Sacrifices</string>
+    <string name="DBD_KilledCampers">Kills (Mori)</string>
+    <string name="DBD_Chapter11_Slasher_Stat1">All survivors killed before endgame collapse</string>
+    <string name="DBD_DLC8_Slasher_Stat2">Survivors Killed/Sacrificed during endgame collapse</string>
+    <string name="DBD_DLC7_Slasher_Stat2">Obsessions Sacrificed</string>
+    <string name="DBD_DLC6_Slasher_Stat2">Hooked survivors in basement</string>
+    <string name="DBD_Event1_Stat1">Hooked 3+ survivors in the basement at once</string>
+    <string name="DBD_Chapter14_Slasher_Stat1">Hooked survivors while all remaining were injured</string>
+    <string name="DBD_Chapter18_Slasher_Stat2">Hooked survivors during endgame collapse</string>
+    <string name="DBD_Chapter20_Slasher_Stat2">Hooked survivors before a single generator is repaired</string>
+    <string name="DBD_DLC9_Slasher_Stat1">Generators damaged with at least one survivor hooked</string>
+    <string name="DBD_Chapter10_Slasher_Stat1">Survivors hit while carrying another survivor</string>
+    <string name="DBD_Chapter12_Slasher_Stat1">Survivors grabbed while repairing a generator</string>
+    <string name="DBD_Chapter13_Slasher_Stat1">Hatches closed</string>
+    <string name="DBD_Chapter9_Slasher_Stat1">Survivors hit after they drop a pallet during chase</string>
+    <string name="DBD_Chapter16_Slasher_Stat2">Oblivious survivors downed</string>
+    <string name="DBD_Chapter17_Slasher_Stat2">Survivors downed while Exposed</string>
+    <string name="DBD_Chapter19_Slasher_Stat2">Survivors downed while carrying another survivor</string>
+    <string name="DBD_DLC6_Slasher_Stat1">(The Cannibal) Survivors downed with chainsaw</string>
+    <string name="DBD_ChainsawHit">(The Hillbilly) Survivors downed with chainsaw</string>
+    <string name="DBD_DLC9_Slasher_Stat2">(The Clown) Intoxicated survivors downed</string>
+    <string name="DBD_DLC5_Slasher_Stat2">(The Huntress) Survivors downed by 24m+ hatchet throw</string>
+    <string name="DBD_Chapter12_Slasher_Stat2">(The Ghostface) Marked survivors downed</string>
+    <string name="DBD_Chapter11_Slasher_Stat2">(The Plague) Survivors downed while having max Sickness</string>
+    <string name="DBD_Chapter13_Slasher_Stat2">(The Demogorgon) Survivors downed with Shred</string>
+    <string name="DBD_Chapter14_Slasher_Stat2">(The Oni) Survivors downed with Demon Fury</string>
+    <string name="DBD_Chapter9_Slasher_Stat2">(The Spirit) Survivors downed after phase walk</string>
+    <string name="DBD_Chapter10_Slasher_Stat2">(The Legion) Deep wounded survivors downed</string>
+    <string name="DBD_Chapter15_Slasher_Stat1">(The Gunslinger) Survivors downed while speared</string>
+    <string name="DBD_Chapter18_Slasher_Stat1">(The Twins) Survivors downed with Victor clinging</string>
+    <string name="DBD_Chapter20_Slasher_Stat1">(The Nemesis) Survivors downed while contaminated</string>
+
+
+    <!--Survs-->
+    <string name="DBD_CamperMaxScoreByCategory">Perfect games (5k+ points in all categories)</string>
+    <string name="DBD_CamperFullLoadout">Full loadout trials</string>
+    <string name="DBD_CamperKeepUltraRare">Ultra Rare addons warded</string>
+    <string name="DBD_Chapter17_Camper_Stat1">Items depleted</string>
+    <string name="DBD_HealPct_float">Total heals</string>
+    <string name="DBD_Chapter11_Camper_Stat1_float">Heals when injured</string>
+    <string name="DBD_Chapter17_Camper_Stat2_float">Heals when rest is injured</string>
+    <string name="DBD_Chapter15_Camper_Stat1">Dying survivors healed</string>
+    <string name="DBD_UnhookOrHeal">Survivors saved (dying state/unhooked)</string>
+    <string name="DBD_UnhookOrHeal_PostExit">Survivors saved (dying state/unhooked) in endgame</string>
+    <string name="DBD_Chapter18_Camper_Stat1">Survivors saved from killer`s grasp using pallets</string>
+    <string name="DBD_Chapter9_Camper_Stat1">Unhooked yourself</string>
+    <string name="DBD_SkillCheckSuccess">Skill Check Success</string>
+    <string name="DBD_Chapter10_Camper_Stat1">Hooks sabotaged</string>
+    <string name="DBD_DLC3_Camper_Stat1">Hex totems cleansed</string>
+    <string name="DBD_DLC7_Camper_Stat2">Exit gates opened</string>
+    <string name="DBD_GeneratorPct_float">Generators repaired</string>
+    <string name="DBD_Camper8_Stat1">Damaged gens repaired</string>
+    <string name="DBD_DLC7_Camper_Stat1">Chests opened</string>
+    <string name="DBD_Event1_Stat2">Chests opened in the basement</string>
+    <string name="DBD_Escape">Total escapes</string>
+    <string name="DBD_EscapeKO">Escaped in dying state</string>
+    <string name="DBD_EscapeThroughHatch">Escaped through hatch</string>
+    <string name="DBD_Chapter12_Camper_Stat2">Escaped through hatch in dying state</string>
+    <string name="DBD_EscapeNoBlood_Obsession">Escaped as obsession without getting hit</string>
+    <string name="DBD_Camper9_Stat2">Escaped while being injured for over half a trial</string>
+    <string name="DBD_HookedAndEscape">Escaped after unhooking yourself</string>
+    <string name="DBD_DLC8_Camper_Stat1">Escaped with a new item</string>
+    <string name="DBD_CamperNewItem">Escaped with a new item</string>
+    <string name="DBD_CamperEscapeWithItemFrom">Escaped with somebody else`s item</string>
+    <string name="DBD_AllEscapeThroughHatch">All survivors escaped through hatch</string>
+
+
+</resources>

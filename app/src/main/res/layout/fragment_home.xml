@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:fitsSystemWindows="false"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/top_bar_bg"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/open_sans_bold"
+            android:letterSpacing="0.08"
+            android:text="@string/menu"
+            android:textAllCaps="true"
+            android:textColor="#fefefe"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="@+id/imageView9" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linksContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar">
+
+        <ImageView
+            android:id="@+id/linkRandomizer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="-16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/link_randomizer"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/linkChallenges"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/linkChallenges"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="-16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/link_challenges"
+            app:layout_constraintBottom_toTopOf="@+id/linkGame"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linkRandomizer" />
+
+        <ImageView
+            android:id="@+id/linkGame"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="-16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/link_game"
+            app:layout_constraintBottom_toTopOf="@+id/linkStatistics"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linkChallenges" />
+
+        <ImageView
+            android:id="@+id/linkStatistics"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="-16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/link_stats"
+            app:layout_constraintBottom_toTopOf="@+id/linkNews"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linkGame" />
+
+        <ImageView
+            android:id="@+id/linkNews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="-16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/link_news"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linkStatistics" />
+
+        <TextView
+            android:id="@+id/linkRandomizerText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:fontFamily="@font/open_sans_extra_bold"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowRadius="20"
+            android:text="@string/randomizer"
+            android:textAllCaps="true"
+            android:textColor="@color/link_text_color"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toBottomOf="@+id/linkRandomizer"
+            app:layout_constraintEnd_toEndOf="@+id/linkRandomizer"
+            app:layout_constraintStart_toStartOf="@+id/linkRandomizer"
+            app:layout_constraintTop_toTopOf="@+id/linkRandomizer" />
+
+        <TextView
+            android:id="@+id/linkChallengesText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:fontFamily="@font/open_sans_extra_bold"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowRadius="20"
+            android:text="@string/challenges"
+            android:textAllCaps="true"
+            android:textColor="@color/link_text_color"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toBottomOf="@+id/linkChallenges"
+            app:layout_constraintEnd_toEndOf="@+id/linkChallenges"
+            app:layout_constraintStart_toStartOf="@+id/linkChallenges"
+            app:layout_constraintTop_toTopOf="@+id/linkChallenges" />
+
+        <TextView
+            android:id="@+id/linkGameText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:fontFamily="@font/open_sans_extra_bold"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowRadius="20"
+            android:text="@string/game"
+            android:textAllCaps="true"
+            android:textColor="@color/link_text_color"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toBottomOf="@+id/linkGame"
+            app:layout_constraintEnd_toEndOf="@+id/linkGame"
+            app:layout_constraintStart_toStartOf="@+id/linkGame"
+            app:layout_constraintTop_toTopOf="@+id/linkGame" />
+
+        <TextView
+            android:id="@+id/linkStatisticsText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:fontFamily="@font/open_sans_extra_bold"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowRadius="20"
+            android:text="@string/stats"
+            android:textAllCaps="true"
+            android:textColor="@color/link_text_color"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toBottomOf="@+id/linkStatistics"
+            app:layout_constraintEnd_toEndOf="@+id/linkStatistics"
+            app:layout_constraintStart_toStartOf="@+id/linkStatistics"
+            app:layout_constraintTop_toTopOf="@+id/linkStatistics" />
+
+        <TextView
+            android:id="@+id/linkNewsText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:fontFamily="@font/open_sans_extra_bold"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowRadius="20"
+            android:text="@string/news"
+            android:textAllCaps="true"
+            android:textColor="@color/link_text_color"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toBottomOf="@+id/linkNews"
+            app:layout_constraintEnd_toEndOf="@+id/linkNews"
+            app:layout_constraintStart_toStartOf="@+id/linkNews"
+            app:layout_constraintTop_toTopOf="@+id/linkNews" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

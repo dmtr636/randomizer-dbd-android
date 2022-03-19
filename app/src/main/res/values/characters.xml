@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="killer_characters">
+        <item>char_icon_1;fulliconpowers_trap</item>
+        <item>char_icon_2;fulliconpowers_bell</item>
+        <item>char_icon_3;fulliconpowers_chainsaw</item>
+        <item>char_icon_4;fulliconpowers_breath</item>
+        <item>char_icon_5;fulliconpowers_stalker1</item>
+        <item>char_icon_6;fulliconpowers_blackenedcatalyst</item>
+        <item>char_icon_7;fulliconpowers_cartersspark</item>
+        <item>char_icon_8;fulliconpowers_huntinghatchets</item>
+        <item>char_icon_9;fulliconpowers_bubbaschainsaw</item>
+        <item>char_icon_10;fulliconpowers_dreamdemon</item>
+        <item>char_icon_11;fulliconpowers_jigsawsbaptism</item>
+        <item>char_icon_12;fulliconpowers_gasbomb</item>
+        <item>char_icon_13;fulliconpowers_yamaokashaunting</item>
+        <item>char_icon_14;fulliconpowers_feralfrenzy</item>
+        <item>char_icon_15;fulliconpowers_vilepurge</item>
+        <item>char_icon_16;fulliconpowers_nightshroud</item>
+        <item>char_icon_17;fulliconpowers_oftheabyss</item>
+        <item>char_icon_18;fulliconpowers_yamaokaswrath_demon</item>
+        <item>char_icon_19;fulliconpowers_theredeemer</item>
+        <item>char_icon_20;fulliconpowers_ritesofjudgement</item>
+        <item>char_icon_21;fulliconpowers_blightedcorruption</item>
+        <item>char_icon_22;fulliconpowers_bloodbond_sister</item>
+        <item>char_icon_23;fulliconpowers_showstopper</item>
+        <item>char_icon_24;fulliconpowers_t_virus_mr1</item>
+        <item>char_icon_25;fulliconpowers_summonsofpain</item>
+        <item>char_icon_26;fulliconpowers_birdsoftorment</item>
+        <item>char_icon_27;fulliconpowers_delugeoffear</item>
+    </string-array>
+
+    <string-array name="survivor_characters">
+        <item>charsurv_icon_01</item>
+        <item>charsurv_icon_02</item>
+        <item>charsurv_icon_03</item>
+        <item>charsurv_icon_04</item>
+        <item>charsurv_icon_05</item>
+        <item>charsurv_icon_06</item>
+        <item>charsurv_icon_07</item>
+        <item>charsurv_icon_08</item>
+        <item>charsurv_icon_09</item>
+        <item>charsurv_icon_10</item>
+        <item>charsurv_icon_11</item>
+        <item>charsurv_icon_12</item>
+        <item>charsurv_icon_13</item>
+        <item>charsurv_icon_14</item>
+        <item>charsurv_icon_15</item>
+        <item>charsurv_icon_16</item>
+        <item>charsurv_icon_17</item>
+        <item>charsurv_icon_18</item>
+        <item>charsurv_icon_19</item>
+        <item>charsurv_icon_20</item>
+        <item>charsurv_icon_21</item>
+        <item>charsurv_icon_22</item>
+        <item>charsurv_icon_23</item>
+        <item>charsurv_icon_24</item>
+        <item>charsurv_icon_25</item>
+        <item>charsurv_icon_26</item>
+        <item>charsurv_icon_27</item>
+        <item>charsurv_icon_28</item>
+        <item>charsurv_icon_29</item>
+        <item>charsurv_icon_30</item>
+    </string-array>
+</resources>

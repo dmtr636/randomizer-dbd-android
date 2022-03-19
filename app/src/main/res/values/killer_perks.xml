@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="killer_perks">
+        <item>iconperks_anursescalling;A Nurse\'s Calling</item>
+        <item>iconperks_agitation;Agitation</item>
+        <item>iconperks_bamboozle;Bamboozle</item>
+        <item>iconperks_bbqandchili;Barbecue &amp; Chili</item>
+        <item>iconperks_beastofprey;Beast of prey</item>
+        <item>iconperks_bittermurmur;Bitter Murmur</item>
+        <item>iconperks_bloodecho;Blood echo</item>
+        <item>iconperks_bloodwarden;Blood Warden</item>
+        <item>iconperks_bloodhound;Bloodhound</item>
+        <item>iconperks_brutalstrength;Brutal Strength</item>
+        <item>iconperks_cruelconfinement;Claustrophobia</item>
+        <item>iconperks_corruptintervention;Corrupt Intervention</item>
+        <item>iconperks_coulrophobia;Coulrophobia</item>
+        <item>iconperks_coupdegrace;Coup de grace</item>
+        <item>iconperks_darkdevotion;Dark Devotion</item>
+        <item>iconperks_deadmanswitch;Dead Man\'s Switch</item>
+        <item>iconperks_deadlock;Deadlock</item>
+        <item>iconperks_deathbound;Deathbound</item>
+        <item>iconperks_deerstalker;Deerstalker</item>
+        <item>iconperks_discordance;Discordance</item>
+        <item>iconperks_distressing;Distressing</item>
+        <item>iconperks_dragonsgrip;Dragon\'s Grip</item>
+        <item>iconperks_dyinglight;Dying Light</item>
+        <item>iconperks_enduring;Enduring</item>
+        <item>iconperks_eruption;Eruption</item>
+        <item>iconperks_mindbreaker;Fearmonger</item>
+        <item>iconperks_fireup;Fire Up</item>
+        <item>iconperks_forcedpenance;Forced penance</item>
+        <item>iconperks_franklinsloss;Franklin\'s Demise</item>
+        <item>iconperks_furtivechase;Furtive Chase</item>
+        <item>iconperks_gearhead;Gearhead</item>
+        <item>iconperks_grimembrace;Grim Embrace</item>
+        <item>iconperks_hangmanstrick;Hangman\'s Trick</item>
+        <item>iconperks_hexbloodfavor;Hex: Blood Favor</item>
+        <item>iconperks_hexcrowdcontrol;Hex: Crowd Control</item>
+        <item>iconperks_devourhope;Hex: Devour Hope</item>
+        <item>iconperks_hauntedground;Hex: haunted ground</item>
+        <item>iconperks_huntresslullaby;Hex: Huntress Lullaby</item>
+        <item>iconperks_nooneescapesdeath;Hex: No One Escapes Death</item>
+        <item>iconperks_hexpentimento;Hex: Pentimento</item>
+        <item>iconperks_hexplaything;Hex: Plaything</item>
+        <item>iconperks_hexretribution;Hex: Retribution</item>
+        <item>iconperks_ruin;Hex: Ruin</item>
+        <item>iconperks_thethirdseal;Hex: The Third Seal</item>
+        <item>iconperks_thrillofthehunt;Hex: Thrill of the Hunt</item>
+        <item>iconperks_hexundying;Hex: Undying</item>
+        <item>iconperks_hoarder;Hoarder</item>
+        <item>iconperks_hysteria;Hysteria</item>
+        <item>iconperks_imallears;I\'m All Ears</item>
+        <item>iconperks_infectiousfright;Infectious Fright</item>
+        <item>iconperks_insidious;Insidious</item>
+        <item>iconperks_irongrasp;Iron Grasp</item>
+        <item>iconperks_ironmaiden;Iron Maiden</item>
+        <item>iconperks_surge;Jolt</item>
+        <item>iconperks_knockout;Knock Out</item>
+        <item>iconperks_lethalpursuer;Lethal Pursuer</item>
+        <item>iconperks_lightborn;Lightborn</item>
+        <item>iconperks_madgrit;Mad Grit</item>
+        <item>iconperks_makeyourchoice;Make Your Choice</item>
+        <item>iconperks_monitorandabuse;Monitor &amp; Abuse</item>
+        <item>iconperks_monstrousshrine;Monstrous Shrine</item>
+        <item>iconperks_nemesis;Nemesis</item>
+        <item>iconperks_nowayout;No Way Out</item>
+        <item>iconperks_oppression;Oppression</item>
+        <item>iconperks_generatorovercharge;Overcharge</item>
+        <item>iconperks_overwhelmingpresence;Overwhelming presence</item>
+        <item>iconperks_playwithyourfood;Play With Your Food</item>
+        <item>iconperks_popgoestheweasel;Pop Goes The Weasel</item>
+        <item>iconperks_predator;Predator</item>
+        <item>iconperks_hatred;Rancor</item>
+        <item>iconperks_rememberme;Remember Me</item>
+        <item>iconperks_savethebestforlast;Save The Best For Last</item>
+        <item>iconperks_scourgehookgiftofpain;Scourge Hook: Gift Of Pain</item>
+        <item>iconperks_painresonance;Scourge Hook: Pain Resonance</item>
+        <item>iconperks_shadowborn;Shadowborn</item>
+        <item>iconperks_sloppybutcher;Sloppy Butcher</item>
+        <item>iconperks_spiesfromtheshadows;Spies From The Shadows</item>
+        <item>iconperks_spiritfury;Spirit fury</item>
+        <item>iconperks_starstruck;Starstruck</item>
+        <item>iconperks_stridor;Stridor</item>
+        <item>iconperks_surveillance;Surveillance</item>
+        <item>iconperks_territorialimperative;Territorial Imperative</item>
+        <item>iconperks_thatanophobia;Thanatophobia</item>
+        <item>iconperks_thrillingtremors;Thrilling Tremors</item>
+        <item>iconperks_tinkerer;Tinkerer</item>
+        <item>iconperks_trailoftorment;Trail of torment</item>
+        <item>iconperks_unnervingpresence;Unnerving Presence</item>
+        <item>iconperks_unrelenting;Unrelenting</item>
+        <item>iconperks_whispers;Whispers</item>
+        <item>iconperks_zanshintactics;Zanshin tactics</item>
+
+        <item>iconperks_callofbrine;Call of Brine</item>
+        <item>iconperks_mercilessstorm;Merciless Storm</item>
+        <item>iconperks_scourgehookfloodsofrage;Scourge Hook: Floods of Rage</item>
+    </string-array>
+</resources>

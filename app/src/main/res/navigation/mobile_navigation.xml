@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.kodimstudio.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu"
+        tools:layout="@layout/fragment_home">
+
+        <action android:id="@+id/action_home_to_select_randomizer"
+            app:destination="@id/nav_select_randomizer"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+
+        <action android:id="@+id/action_home_to_select_challenges"
+            app:destination="@id/nav_select_challenges"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+
+        <action android:id="@+id/action_home_to_skill_check"
+            app:destination="@id/nav_skill_check"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+
+        <action android:id="@+id/action_home_to_stats"
+            app:destination="@id/nav_stats"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+
+        <action android:id="@+id/action_home_to_news"
+            app:destination="@id/nav_news"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_select_randomizer"
+        android:name="com.kodimstudio.myapplication.ui.randomizer.SelectRandomizerFragment"
+        android:label="@string/choice"
+        tools:layout="@layout/fragment_select_randomizer">
+
+        <action android:id="@+id/action_select_randomizer_to_killer_randomizer"
+            app:destination="@id/nav_killer_randomizer"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action android:id="@+id/action_select_randomizer_to_surv_randomizer"
+            app:destination="@id/nav_surv_randomizer"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_killer_randomizer"
+        android:name="com.kodimstudio.myapplication.ui.randomizer.KillerRandomizerFragment"
+        android:label="@string/killers"
+        tools:layout="@layout/fragment_killer_randomizer" />
+
+    <fragment
+        android:id="@+id/nav_surv_randomizer"
+        android:name="com.kodimstudio.myapplication.ui.randomizer.SurvRandomizerFragment"
+        android:label="@string/survs"
+        tools:layout="@layout/fragment_surv_randomizer" />
+
+    <fragment
+        android:id="@+id/nav_select_challenges"
+        android:name="com.kodimstudio.myapplication.ui.challenges.SelectChallengesFragment"
+        android:label="@string/choice"
+        tools:layout="@layout/fragment_select_challenges">
+
+        <action android:id="@+id/action_select_challenges_to_killer_challenges"
+            app:destination="@id/nav_killer_challenges"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+
+        <action android:id="@+id/action_select_challenges_to_surv_challenges"
+            app:destination="@id/nav_surv_challenges"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_killer_challenges"
+        android:name="com.kodimstudio.myapplication.ui.challenges.ChallengesKillerFragment"
+        android:label="@string/survs"
+        tools:layout="@layout/fragment_surv_randomizer">
+
+        <action android:id="@+id/action_killer_challenges_to_list_killer_challenges"
+            app:destination="@id/nav_killer_challenges_list"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+
+        <action android:id="@+id/action_killer_challenges_to_list_surv_challenges"
+            app:destination="@id/nav_surv_challenges_list"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_surv_challenges"
+        android:name="com.kodimstudio.myapplication.ui.challenges.ChallengesSurvFragment"
+        android:label="@string/survs"
+        tools:layout="@layout/fragment_challenges_surv">
+
+        <action android:id="@+id/action_surv_challenges_to_list_killer_challenges"
+            app:destination="@id/nav_killer_challenges_list"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+
+        <action android:id="@+id/action_surv_challenges_to_list_surv_challenges"
+            app:destination="@id/nav_surv_challenges_list"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_killer_challenges_list"
+        android:name="com.kodimstudio.myapplication.ui.challenges.ChallengesListKillerFragment"
+        tools:layout="@layout/fragment_challenges_list_killer" />
+
+    <fragment
+        android:id="@+id/nav_surv_challenges_list"
+        android:name="com.kodimstudio.myapplication.ui.challenges.ChallengesListSurvFragment"
+        tools:layout="@layout/fragment_challenges_list_surv" />
+
+    <fragment
+        android:id="@+id/nav_skill_check"
+        android:name="com.kodimstudio.myapplication.ui.skillcheck.SkillCheckFragment"
+        android:label="@string/skill_check"
+        tools:layout="@layout/fragment_skill_check" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="com.kodimstudio.myapplication.ui.stats.StatsFragment"
+        tools:layout="@layout/fragment_stats">
+
+        <action android:id="@+id/action_stats_to_search_player"
+            app:destination="@id/nav_search_player"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_search_player_result"
+        android:name="com.kodimstudio.myapplication.ui.stats.search.SearchResultFragment"
+        android:label="@string/select_account"
+        tools:layout="@layout/fragment_search_result">
+
+        <action android:id="@+id/action_search_player_result_to_stats"
+            app:destination="@id/nav_stats"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_search_player"
+        android:name="com.kodimstudio.myapplication.ui.stats.search.SearchPlayerFragment"
+        android:label="@string/select_account"
+        tools:layout="@layout/fragment_search_player">
+
+        <action android:id="@+id/action_search_player_to_search_player_result"
+            app:destination="@id/nav_search_player_result"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.kodimstudio.myapplication.ui.news.NewsFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_news">
+
+        <action android:id="@+id/action_news_to_details"
+            app:destination="@id/nav_news_details"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_news_details"
+        android:name="com.kodimstudio.myapplication.ui.news.NewsDetailsFragment"
+        android:label="@string/news"
+        tools:layout="@layout/fragment_news_details" />
+
+</navigation>

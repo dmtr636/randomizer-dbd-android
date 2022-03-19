@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/checkbox_bg"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/checkbox" />
+
+    <ImageView
+        android:id="@+id/checkbox_mark"
+        android:layout_width="14dp"
+        android:layout_height="11dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="@+id/checkbox_bg"
+        app:layout_constraintTop_toTopOf="@+id/checkbox_bg"
+        app:srcCompat="@drawable/checkbox_complete" />
+
+    <TextView
+        android:id="@+id/challenge_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/open_sans_semi_bold"
+        android:letterSpacing="0.08"
+        android:text="Sacrifice four survivors by playing a match with one skill of your choice"
+        android:textColor="#FFFFFF"
+        android:textSize="13.3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/checkbox_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkbox_bg"
+        app:layout_constraintTop_toTopOf="@+id/checkbox_bg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

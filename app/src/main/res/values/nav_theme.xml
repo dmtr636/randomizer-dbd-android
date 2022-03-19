@@ -1,0 +1,7 @@
+<!-- styles.xml -->
+<resources>
+    <style name="NavTheme" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/font_intro</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+</resources>

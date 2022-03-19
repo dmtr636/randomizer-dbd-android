@@ -1,0 +1,12 @@
+<!-- styles.xml -->
+<resources>
+    <style name="ActivityWithToolbarTheme" parent="Theme.DBDHelperBeta">
+        <item name="android:fontFamily">@font/font_intro</item>
+        <item name="fontFamily">@font/font_intro</item>
+    </style>
+
+    <style name="ToolbarTheme">
+        <item name="android:fontFamily">@font/font_intro</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+</resources>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Рандомайзер DBD</string>
+    <string name="menu">Меню</string>
+    <string name="randomizer">Рандомайзер</string>
+    <string name="challenges">Челленджи</string>
+    <string name="skill_check">Реакция</string>
+    <string name="choice">Выбор</string>
+    <string name="killers">Убийцы</string>
+    <string name="survs">Выжившие</string>
+    <string name="select_char">Выбрать персонажей</string>
+    <string name="excude_perks">Исключить перки</string>
+    <string name="killer_randomizer_help">
+        Когда не выбран ни один персонаж, то рандомайзер случайным образом подбирает одного персонажа из всех персонажей, а также случайные навыки для него.
+        \n\nКогда выбран один персонаж, то случайные навыки рандомайзер подбирает конкретно на выбранного персонажа.
+        \n\nКогда выбрано двое и более персонажей, то рандомайзер случайным образом подбирает одного персонажа из выбранных персонажей, а также случайные навыки для него.
+        \n\nЕсли нажать на иконку навыка, то он будет исключëн из подбора рандомайзера.
+        \n\nДля того, чтобы вернуть навык в подбор рандомайзера, нажмите на иконку снова.
+        \n\nДля того, чтобы запустить рандомайзер, нажмите на кнопку в виде игрального кубика.
+        \n\nДо встречи в тумане!
+    </string>
+    <string name="surv_randomizer_help">
+        Когда не выбран ни один персонаж, то рандомайзер случайным образом подбирает одного выжившего из всех персонажей, а также случайные навыки для него.
+        \n\nКогда выбран один персонаж, то случайные навыки рандомайзер подбирает конкретно на выбранного выжившего.
+        \n\nКогда выбрано двое и более персонажей, то рандомайзер случайным образом подбирает одного выжившего из выбранных персонажей, а также случайные навыки для него.
+        \n\nЕсли нажать на иконку навыка, то он будет исключëн из подбора рандомайзера.
+        \n\nДля того, чтобы вернуть навык в подбор рандомайзера, нажмите на иконку снова.
+        \n\nДля того, чтобы запустить рандомайзер, нажмите на кнопку в виде игрального кубика.
+        \n\nДо встречи в тумане!
+    </string>
+    <string name="good_skill_check">Хорошая реакция</string>
+    <string name="great_skill_check">Отличная реакция</string>
+    <string name="score">Счёт</string>
+    <string name="record">Рекорд</string>
+    <string name="easy">Лёгкий</string>
+    <string name="medium">Средний</string>
+    <string name="hard">Сложный</string>
+    <string name="end_game">Игра окончена</string>
+    <string name="save_choice">Сохранять выбор</string>
+    <string name="clear_choice">Сбросить выбор</string>
+    <string name="stats">Статистика</string>
+    <string name="select_account">Выбор аккаунта</string>
+    <string name="selected_few_perks">Выберите как минимум 4 перка</string>
+
+    <string name="stats_tab_text_1">Общее</string>
+    <string name="stats_tab_text_2">Убийцы</string>
+    <string name="stats_tab_text_3">Сурвы</string>
+
+    <string name="error_text_stats_load_failed">Произошла ошибка во время загрузки данных. Убедитесь, что данный игрок имеет открытый профиль Steam и играет в DBD, затем попробуйте снова</string>
+    <string name="enter_steam_link">Введите ссылку на Steam профиль игрока</string>
+    <string name="only_highlighted_part">(только часть, выделенную цветом)</string>
+    <string name="example">Пример:</string>
+    <string name="search">Поиск</string>
+    <string name="error_occurred">Произошла ошибка. Попробуйте ещё раз</string>
+    <string name="account_not_found">Данный аккаунт не найден</string>
+    <string name="loading">Загрузка...</string>
+    <string name="retry">Повторить</string>
+    <string name="error">Ошибка</string>
+
+    <string name="news">Новости</string>
+    <string name="snackbar_error">Произошла ошибка. Попробуйте ещё раз</string>
+    <string name="fill_search_field">Заполните поле поиска</string>
+
+    <string name="favourite_players">Избранные игроки</string>
+    <string name="reset_progress_text">Вы уверены, что хотите сбросить прогресс?</string>
+
+    <string name="reset">Сбросить</string>
+    <string name="cancel">Отмена</string>
+    <string name="reset_progress">Сбросить прогресс</string>
+
+    <string name="game">Игра</string>
+    <string name="find">Найти</string>
+    <string name="nickname_steam_id_url">Ник, Steam ID, URL</string>
+    <string name="common">Общее</string>
+    
+    <string name="challenges_over">Челленджи закончились</string>
+</resources>

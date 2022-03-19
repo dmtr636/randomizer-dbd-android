@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="killer_challenges">
+        <item>
+            0;
+            Bloody Debut;
+            Sacrifice four survivors by playing a match with one skill of your choice
+        </item>
+        <item>
+            1;
+            Public execution;
+            Kill the two survivors
+        </item>
+        <item>
+            2;
+            Mass Execution;
+            Kill the four survivors
+        </item>
+        <item>
+            3;
+            The highest mercy;
+            Release the last survivor into the hatch or gate
+        </item>
+        <item>
+            4;
+            A trusted ally;
+            With the skill «Blood Warden» allow the entity to consume the survivor as time expires
+        </item>
+        <item>
+            5;
+            Particularly insidious;
+            Sacrifice four survivors using only one skill «Insidious»
+        </item>
+        <item>
+            6;
+            The earth will look after you;
+            Let the four survivors die on the ground
+        </item>
+        <item>
+            7;
+            Death Cradle;
+            Playing as the Huntress and using the «Iridescent Head» enhancement, sacrifice four survivors
+        </item>
+        <item>
+            8;
+            Technophobia;
+            Not to break a single generator in a match
+        </item>
+    </string-array>
+
+    <string-array name="surv_challenges">
+        <item>
+            1000;
+            Untouchable;
+            Take no damage in a match
+        </item>
+        <item>
+            1001;
+            Wind dance;
+            Using only one skill «Dance With Me», escape through the gate
+        </item>
+        <item>
+            1002;
+            Stronger than Death;
+            Using only one skill «No Mither», escape through a gate or manhole
+        </item>
+        <item>
+            1003;
+            Chief Engineer;
+            Repair 3 generators in a match
+        </item>
+        <item>
+            1004;
+            To destroy is not to build;
+            Using the «Any Means Necessary» skill recover 2 dropped boards
+        </item>
+        <item>
+            1005;
+            Striking Vanguard;
+            Using only one skill «Head On», stun the killer and escape through the gate
+        </item>
+        <item>
+            1006;
+            Strategist;
+            Using only two skills: «Boon: Circle of Healing» and «Boon: Shadow Step» escape through the gate with three allies
+        </item>
+        <item>
+            1007;
+            The savior of self;
+            Using only one skill «Deliverance», escape through a gate or manhole
+        </item>
+        <item>
+            1008;
+            Together we are stronger;
+            Repair generators only when paired with another survivor
+        </item>
+    </string-array>
+</resources>
+

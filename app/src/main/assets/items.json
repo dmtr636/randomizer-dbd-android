@@ -1,0 +1,105 @@
+[
+  {
+    "itemVariants": [
+      "fulliconitems_campingaidkit",
+      "fulliconitems_emergencymed_kit",
+      "fulliconitems_firstaidkit",
+      "fulliconitems_rangermed_kit"
+    ],
+    "itemAddons": [
+      "fulliconaddon_abdominaldressing",
+      "fulliconaddon_anti_haemorrhagicsyringe",
+      "fulliconaddon_bandages",
+      "fulliconaddon_butterflytape",
+      "fulliconaddon_gauzeroll",
+      "fulliconaddon_geldressings",
+      "fulliconaddon_medicalscissors",
+      "fulliconaddon_needle_thread",
+      "fulliconaddon_rubbergloves",
+      "fulliconaddon_selfadherentwrap",
+      "fulliconaddon_sponge",
+      "fulliconaddon_stypticagent",
+      "fulliconaddon_surgicalsuture"
+    ]
+  },
+  {
+    "itemVariants": [
+      "fulliconitems_map",
+      "fulliconitems_rainbowmap"
+    ],
+    "itemAddons": [
+      "fulliconaddon_blacksilkcord",
+      "fulliconaddon_crystalbead",
+      "fulliconaddon_glassbead",
+      "fulliconaddon_mapaddendum",
+      "fulliconaddon_oddstamp",
+      "fulliconaddon_redtwine",
+      "fulliconaddon_retardantjelly",
+      "fulliconaddon_unusualstamp",
+      "fulliconaddon_yellowwire"
+    ]
+  },
+  {
+    "itemVariants": [
+      "fulliconitems_brokenkey",
+      "fulliconitems_dullkey",
+      "fulliconitems_skeletonkey"
+    ],
+    "itemAddons": [
+      "fulliconaddon_bloodamber",
+      "fulliconaddon_erodedtoken",
+      "fulliconaddon_goldtoken",
+      "fulliconaddon_milkyglass",
+      "fulliconaddon_prayerbeads",
+      "fulliconaddon_prayerrope",
+      "fulliconaddon_scratchedpearl",
+      "fulliconaddon_uniqueweddingring",
+      "fulliconaddon_weavedring"
+    ]
+  },
+  {
+    "itemVariants": [
+      "fulliconitems_alexstoolbox",
+      "fulliconitems_commodioustoolbox",
+      "fulliconitems_engineerstoolbox",
+      "fulliconitems_mechanicstoolbox",
+      "fulliconitems_toolbox",
+      "fulliconitems_worn_outtools"
+    ],
+    "itemAddons": [
+      "fulliconaddon_brandnewpart",
+      "fulliconaddon_cleanrag",
+      "fulliconaddon_cuttingwire",
+      "fulliconaddon_gripwrench",
+      "fulliconaddon_hacksaw",
+      "fulliconaddon_instructions",
+      "fulliconaddon_protectivegloves",
+      "fulliconaddon_scraps",
+      "fulliconaddon_socketswivels",
+      "fulliconaddon_springclamp",
+      "fulliconaddon_wirespool"
+    ]
+  },
+  {
+    "itemVariants": [
+      "fulliconitems_flashlight",
+      "fulliconitems_sportflashlight",
+      "fulliconitems_utilityflashlight"
+    ],
+    "itemAddons": [
+      "fulliconaddon_battery",
+      "fulliconaddon_focuslens",
+      "fulliconaddon_heavydutybattery",
+      "fulliconaddon_high_endsapphirelens",
+      "fulliconaddon_intensehalogen",
+      "fulliconaddon_leathergrip",
+      "fulliconaddon_longlifebattery",
+      "fulliconaddon_lowampfilament",
+      "fulliconaddon_oddbulb",
+      "fulliconaddon_powerbulb",
+      "fulliconaddon_rubbergrip",
+      "fulliconaddon_tiroptic",
+      "fulliconaddon_widelens"
+    ]
+  }
+]

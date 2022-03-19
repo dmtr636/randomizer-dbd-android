@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="killer_perks">
+        <item>iconperks_deadmanswitch;Аварийная кнопка</item>
+        <item>iconperks_bbqandchili;Барбекю и чили</item>
+        <item>iconperks_unrelenting;Безжалостный</item>
+        <item>iconperks_madgrit;Безумное упорство</item>
+        <item>iconperks_corruptintervention;Вмешательство скверны</item>
+        <item>iconperks_nemesis;Возмездие</item>
+        <item>iconperks_makeyourchoice;Выбор за тобой</item>
+        <item>iconperks_nowayout;Выхода нет</item>
+        <item>iconperks_franklinsloss;Гибель Франклина</item>
+        <item>iconperks_lightborn;Детище света</item>
+        <item>iconperks_shadowborn;Детище тьмы</item>
+        <item>iconperks_coupdegrace;Добивание</item>
+        <item>iconperks_dragonsgrip;Драконья хватка</item>
+        <item>iconperks_ironmaiden;Железная дева</item>
+        <item>iconperks_infectiousfright;Заразительный ужас</item>
+        <item>iconperks_brutalstrength;Зверская сила</item>
+        <item>iconperks_gearhead;Знаток техники</item>
+        <item>iconperks_anursescalling;Зов Медсестры</item>
+        <item>iconperks_hysteria;Истерия</item>
+        <item>iconperks_bloodhound;Ищейка</item>
+        <item>iconperks_cruelconfinement;Клаустрофобия</item>
+        <item>iconperks_coulrophobia;Клоунофобия</item>
+        <item>iconperks_insidious;Коварство</item>
+        <item>iconperks_bloodwarden;Кровавый смотритель</item>
+        <item>iconperks_irongrasp;Мёртвая хватка</item>
+        <item>iconperks_deadlock;Мёртвая хватка</item>
+        <item>iconperks_grimembrace;Мрачные объятья</item>
+        <item>iconperks_surveillance;Наблюдение</item>
+        <item>iconperks_mindbreaker;Наводящий ужас</item>
+        <item>iconperks_sloppybutcher;Небрежный мясник</item>
+        <item>iconperks_overwhelmingpresence;Невыносимое присутствие</item>
+        <item>iconperks_hatred;Ненависть</item>
+        <item>iconperks_agitation;Нетерпимость</item>
+        <item>iconperks_knockout;Нокаут</item>
+        <item>iconperks_savethebestforlast;Оставьте лучшее напоследок</item>
+        <item>iconperks_bloodecho;Отзвук крови</item>
+        <item>iconperks_deerstalker;Охотник на оленей</item>
+        <item>iconperks_generatorovercharge;Перегрузка</item>
+        <item>iconperks_eruption;Подрыв</item>
+        <item>iconperks_playwithyourfood;Поиграть со своей жертвой</item>
+        <item>iconperks_rememberme;Помни меня</item>
+        <item>iconperks_hexbloodfavor;Порча: благоволение крови</item>
+        <item>iconperks_hexplaything;Порча: игрушка</item>
+        <item>iconperks_hexretribution;Порча: кара</item>
+        <item>iconperks_huntresslullaby;Порча: колыбельная охотницы</item>
+        <item>iconperks_hexcrowdcontrol;Порча: контроль толпы</item>
+        <item>iconperks_hexundying;Порча: не-смерть</item>
+        <item>iconperks_nooneescapesdeath;Порча: никому не скрыться от смерти</item>
+        <item>iconperks_thrillofthehunt;Порча: охотничий азарт</item>
+        <item>iconperks_hexpentimento;Порча: пентименто</item>
+        <item>iconperks_ruin;Порча: погибель</item>
+        <item>iconperks_devourhope;Порча: Пожирание надежды</item>
+        <item>iconperks_hauntedground;Порча: проклятая земля</item>
+        <item>iconperks_thethirdseal;Порча: третья печать</item>
+        <item>iconperks_lethalpursuer;Преследователь-убийца</item>
+        <item>iconperks_forcedpenance;Принудительная мера</item>
+        <item>iconperks_oppression;Притеснение</item>
+        <item>iconperks_thrillingtremors;Пугающая тряска</item>
+        <item>iconperks_unnervingpresence;Пугающее присутствие</item>
+        <item>iconperks_discordance;Разлад</item>
+        <item>iconperks_surge;Разряд</item>
+        <item>iconperks_bamboozle;Розыгрыш</item>
+        <item>iconperks_hangmanstrick;Секрет палача</item>
+        <item>iconperks_scourgehookgiftofpain;Секущий крюк: дар боли</item>
+        <item>iconperks_painresonance;Секущий крюк: резонанс боли</item>
+        <item>iconperks_distressing;Сеющий страх</item>
+        <item>iconperks_hoarder;Скопидом</item>
+        <item>iconperks_furtivechase;Скрытная погоня</item>
+        <item>iconperks_monitorandabuse;Слежка и наказание</item>
+        <item>iconperks_deathbound;Смертельные узы</item>
+        <item>iconperks_enduring;Стойкий</item>
+        <item>iconperks_stridor;Стридор</item>
+        <item>iconperks_spiesfromtheshadows;Сумеречные шпионы</item>
+        <item>iconperks_zanshintactics;Тактика зансин</item>
+        <item>iconperks_thatanophobia;Танатофобия</item>
+        <item>iconperks_darkdevotion;Тёмная преданность</item>
+        <item>iconperks_territorialimperative;Территориальный императив</item>
+        <item>iconperks_bittermurmur;Тихий шорох</item>
+        <item>iconperks_trailoftorment;Тропа терзаний</item>
+        <item>iconperks_dyinglight;Угасающий свет</item>
+        <item>iconperks_tinkerer;Умелец</item>
+        <item>iconperks_starstruck;Фанатение</item>
+        <item>iconperks_predator;Хищник</item>
+        <item>iconperks_beastofprey;Хищный зверь</item>
+        <item>iconperks_popgoestheweasel;Чёртик из табакерки</item>
+        <item>iconperks_monstrousshrine;Чудовищный храм</item>
+        <item>iconperks_imallears;Чуткий слух</item>
+        <item>iconperks_whispers;Шепоты</item>
+        <item>iconperks_fireup;Яркое пламя</item>
+        <item>iconperks_spiritfury;Ярость духа</item>
+
+        <item>iconperks_callofbrine;Солёное море</item>
+        <item>iconperks_mercilessstorm;Безжалостный шторм</item>
+        <item>iconperks_scourgehookfloodsofrage;Секущий крюк: пучина ярости</item>
+    </string-array>
+</resources>

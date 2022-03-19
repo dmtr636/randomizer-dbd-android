@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_select_randomizer"
+            android:icon="@drawable/menu_icon_randomizer"
+            android:title="@string/randomizer" />
+        <item
+            android:id="@+id/nav_select_challenges"
+            android:icon="@drawable/menu_icon_challenges"
+            android:title="@string/challenges" />
+        <item
+            android:id="@+id/nav_skill_check"
+            android:icon="@drawable/menu_icon_skillcheck"
+            android:title="@string/skill_check" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/menu_icon_stats"
+            android:title="@string/stats" />
+    </group>
+</menu>

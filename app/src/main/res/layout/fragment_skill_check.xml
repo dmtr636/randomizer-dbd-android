@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_game_bg"
+    android:backgroundTintMode="src_over"
+    tools:context=".ui.skillcheck.SkillCheckFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/skill_check_top_bar_bg"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="29dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_status_effects_skill_check_difficulty" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/open_sans_bold"
+            android:letterSpacing="0.08"
+            android:text="@string/game"
+            android:textAllCaps="true"
+            android:textColor="#fefefe"
+            android:textSize="15.2dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_extra_bold"
+        android:letterSpacing="0.08"
+        android:text="@string/record"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/life1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+    <ImageView
+        android:id="@+id/life1"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/life2"
+        app:layout_constraintTop_toTopOf="@+id/life4"
+        app:srcCompat="@drawable/med" />
+
+    <ImageView
+        android:id="@+id/life3"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#F30202"
+        app:layout_constraintEnd_toStartOf="@+id/life2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/life4"
+        app:layout_constraintTop_toTopOf="@+id/life4"
+        app:srcCompat="@drawable/med" />
+
+    <ImageView
+        android:id="@+id/life2"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/life1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/life3"
+        app:layout_constraintTop_toTopOf="@+id/life4"
+        app:srcCompat="@drawable/med" />
+
+    <ImageView
+        android:id="@+id/life4"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/life3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chipGroup"
+        app:srcCompat="@drawable/med" />
+
+    <ImageView
+        android:id="@+id/skill_check_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="true"
+        android:rotation="-50"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/skill_check_click"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notification"
+        app:srcCompat="@drawable/skill_check_bg_2" />
+
+    <ImageView
+        android:id="@+id/skill_check_arrow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:rotation="-100"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/skill_check_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/skill_check_bg"
+        app:srcCompat="@drawable/skill_check_arrow_2" />
+
+    <ImageView
+        android:id="@+id/skill_check_click"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/button_active" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        app:checkedChip="@id/chipEasy"
+        app:chipSpacingHorizontal="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar"
+        app:selectionRequired="true"
+        app:singleLine="true"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipEasy"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B3000000"
+            android:checkable="true"
+            android:fontFamily="sans-serif"
+            android:text="@string/easy"
+            android:textAppearance="@style/chipText"
+            android:textColor="@color/text_color_chip_selector"
+            android:textSize="16dp"
+            android:theme="@style/Theme.MaterialComponents" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipMedium"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:backgroundTint="#B3000000"
+            android:checkable="true"
+            android:fontFamily="@font/open_sans_extra_bold"
+            android:text="@string/medium"
+            android:textAppearance="@style/chipText"
+            android:textColor="@color/text_color_chip_selector"
+            android:textSize="16dp"
+            android:theme="@style/Theme.MaterialComponents" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipHard"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:backgroundTint="#B3000000"
+            android:checkable="true"
+            android:fontFamily="@font/open_sans_extra_bold"
+            android:text="@string/hard"
+            android:textAppearance="@style/chipText"
+            android:textColor="@color/text_color_chip_selector"
+            android:textSize="16dp"
+            android:theme="@style/Theme.MaterialComponents" />
+    </com.google.android.material.chip.ChipGroup>
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:letterSpacing="0.08"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="13.3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:letterSpacing="0.08"
+        android:text="0"
+        android:textColor="#FF0000"
+        android:textSize="13.3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/open_sans_extra_bold"
+        android:letterSpacing="0.08"
+        android:text="@string/score"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/life4"
+        app:layout_constraintTop_toBottomOf="@+id/life1" />
+
+    <ImageView
+        android:id="@+id/startButton"
+        android:layout_width="31dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/skill_check_click"
+        app:layout_constraintEnd_toStartOf="@+id/skill_check_click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/skill_check_click"
+        app:srcCompat="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/stopButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0.2"
+        app:layout_constraintBottom_toBottomOf="@+id/skill_check_click"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/skill_check_click"
+        app:layout_constraintTop_toTopOf="@+id/skill_check_click"
+        app:srcCompat="@drawable/stop_active" />
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans_extra_bold"
+        android:letterSpacing="0.08"
+        android:text="@string/good_skill_check"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="15.2dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/points" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

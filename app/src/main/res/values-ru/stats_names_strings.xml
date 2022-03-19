@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--General-->
+    <string name="DBD_rank">Ранг</string>
+    <string name="DBD_BloodwebPoints">Заработано очков крови</string>
+    <string name="DBD_MaxBloodwebPointsOneCategory">Потрачено очков на одного персонажа</string>
+    <string name="DBD_BloodwebMaxPrestigeLevel">Уровень престижа</string>
+    <string name="DBD_UnlockRanking">Уровень мастерства</string>
+    <string name="DBD_BurnOffering_UltraRare">Ультра редких подношений сожжено</string>
+    <string name="DBD_TotalAchievements">Всего достижений</string>
+
+    <!--Killer-->
+    <string name="DBD_SlasherMaxScoreByCategory">Идеальных игр (5к+ очков во всех категориях)</string>
+    <string name="DBD_SlasherFullLoadout">Игр с полной экипировкой</string>
+    <string name="DBD_SacrificedCampers">Принесено жертв</string>
+    <string name="DBD_KilledCampers">Убийств (Mori)</string>
+    <string name="DBD_Chapter11_Slasher_Stat1">Все выжившие убиты до коллапса</string>
+    <string name="DBD_DLC8_Slasher_Stat2">Убито выживших во время коллапса</string>
+    <string name="DBD_DLC7_Slasher_Stat2">Принесено в жертву объектов одержимости</string>
+    <string name="DBD_DLC6_Slasher_Stat2">Повешений в подвале</string>
+    <string name="DBD_Event1_Stat1">В подвале 3+ повешенных одновременно</string>
+    <string name="DBD_Chapter14_Slasher_Stat1">Повешений когда все ранены</string>
+    <string name="DBD_Chapter18_Slasher_Stat2">Повешений во время коллапса</string>
+    <string name="DBD_Chapter20_Slasher_Stat2">Повешений до починки первого генератора</string>
+    <string name="DBD_DLC9_Slasher_Stat1">Сломано генераторов с выжившим на крюке</string>
+    <string name="DBD_Chapter10_Slasher_Stat1">Ударов по выжившим, неся другого выжившего</string>
+    <string name="DBD_Chapter12_Slasher_Stat1">Схвачено выживших при ремонте генератора</string>
+    <string name="DBD_Chapter13_Slasher_Stat1">Закрыто люков</string>
+    <string name="DBD_Chapter9_Slasher_Stat1">Ударов по выжившим после сброса палетты</string>
+    <string name="DBD_Chapter16_Slasher_Stat2">Повалено выживших в забычивости</string>
+    <string name="DBD_Chapter17_Slasher_Stat2">Повалено выживших в уязвимости</string>
+    <string name="DBD_Chapter19_Slasher_Stat2">Повалено выживших, неся другого выжившего</string>
+    <string name="DBD_DLC6_Slasher_Stat1">(Каннибал) Повалено выживших бензопилой</string>
+    <string name="DBD_ChainsawHit">(Деревенщина) Повалено выживших бензопилой</string>
+    <string name="DBD_DLC9_Slasher_Stat2">(Клоун) Отравленных выживших повалено</string>
+    <string name="DBD_DLC5_Slasher_Stat2">(Охотница) Повалено выжвших топором (24+ метра)</string>
+    <string name="DBD_Chapter12_Slasher_Stat2">(Гоуст Фейс) Помеченных выживших повалено</string>
+    <string name="DBD_Chapter11_Slasher_Stat2">(Чума) Повалено выживших с максимальным уровнем заражения</string>
+    <string name="DBD_Chapter13_Slasher_Stat2">(Демогоргон) Повалено выживших с помощью \'Разрыва\'</string>
+    <string name="DBD_Chapter14_Slasher_Stat2">(Они) Повалено выживших во время кровавой ярости</string>
+    <string name="DBD_Chapter9_Slasher_Stat2">(Дух) Повалено выживших после фазового перехода</string>
+    <string name="DBD_Chapter10_Slasher_Stat2">(Легион) Повалено выживших с эффектом \'Глубокая рана\'</string>
+    <string name="DBD_Chapter15_Slasher_Stat1">(Стрелок) Повалено пронзённых выживших</string>
+    <string name="DBD_Chapter18_Slasher_Stat1">(Близнецы) Повалено выживших, в которых вцепился Виктор</string>
+    <string name="DBD_Chapter20_Slasher_Stat1">(Немезис) Поваленно заражённых выживших</string>
+
+    <!--Survs-->
+    <string name="DBD_CamperMaxScoreByCategory">Идеальных игр (5к+ очков во всех категориях)</string>
+    <string name="DBD_CamperFullLoadout">Игр с полной экипировкой</string>
+    <string name="DBD_CamperKeepUltraRare">Сохранено ультра редких улучшений</string>
+    <string name="DBD_Chapter17_Camper_Stat1">Предметов израсходовано</string>
+    <string name="DBD_HealPct_float">Всего исцелений</string>
+    <string name="DBD_Chapter11_Camper_Stat1_float">Исцелений себя</string>
+    <string name="DBD_Chapter17_Camper_Stat2_float">Исцелений других выживших</string>
+    <string name="DBD_Chapter15_Camper_Stat1">Поднято выживших</string>
+    <string name="DBD_UnhookOrHeal">Спасений выживших</string>
+    <string name="DBD_UnhookOrHeal_PostExit">Спасений выживших во время коллапса</string>
+    <string name="DBD_Chapter18_Camper_Stat1">Спасений выживших с помощью палетты</string>
+    <string name="DBD_Chapter9_Camper_Stat1">Спрыгиваний с крюка</string>
+    <string name="DBD_SkillCheckSuccess">Успешных проверок реакции</string>
+    <string name="DBD_Chapter10_Camper_Stat1">Сломано крюков</string>
+    <string name="DBD_DLC3_Camper_Stat1">Очищено тотемов с порчей</string>
+    <string name="DBD_DLC7_Camper_Stat2">Открыто ворот</string>
+    <string name="DBD_GeneratorPct_float">Генераторов отремонтировано</string>
+    <string name="DBD_Camper8_Stat1">Сломанных генераторов отремонтировано</string>
+    <string name="DBD_DLC7_Camper_Stat1">Открыто сундуков</string>
+    <string name="DBD_Event1_Stat2">Открыто сундуков в подвале</string>
+    <string name="DBD_Escape">Всего побегов</string>
+    <string name="DBD_EscapeKO">Побегов в предсмертном состоянии</string>
+    <string name="DBD_EscapeThroughHatch">Побегов через люк</string>
+    <string name="DBD_Chapter12_Camper_Stat2">Побегов через люк в предсметрном состоянии</string>
+    <string name="DBD_EscapeNoBlood_Obsession">Побегов, будучи объектом одержимости и не получив хита</string>
+    <string name="DBD_Camper9_Stat2">Побегов, будучи раненым более половины матча</string>
+    <string name="DBD_HookedAndEscape">Побегов после спрыгивания с крюка</string>
+    <string name="DBD_DLC8_Camper_Stat1">Побегов, будучи поваленным не более одного раза</string>
+    <string name="DBD_CamperNewItem">Побегов с новым предметом</string>
+    <string name="DBD_CamperEscapeWithItemFrom">Побегов с чужим предметом</string>
+    <string name="DBD_AllEscapeThroughHatch">Все выжившие сбежали через люк</string>
+
+</resources>

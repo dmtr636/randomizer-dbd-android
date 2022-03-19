@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--General-->
+    <string name="DBD_rank">ランク</string>
+    <string name="DBD_BloodwebPoints">ブラッドポイント獲得数</string>
+    <string name="DBD_MaxBloodwebPointsOneCategory">1キャラクターあたりの消費ポイント</string>
+    <string name="DBD_BloodwebMaxPrestigeLevel">プレステージのレベル</string>
+    <string name="DBD_UnlockRanking">スキルレベル</string>
+    <string name="DBD_BurnOffering_UltraRare">超希少な供物を焼成</string>
+    <string name="DBD_TotalAchievements">実績</string>
+
+    <!--Killer-->
+    <string name="DBD_SlasherMaxScoreByCategory">パーフェクトゲーム（全項目で5k点以上</string>
+    <string name="DBD_SlasherFullLoadout">設備</string>
+    <string name="DBD_SacrificedCampers">犠牲は払われている</string>
+    <string name="DBD_KilledCampers">殺人事件 (Mori)</string>
+    <string name="DBD_Chapter11_Slasher_Stat1">ゲーム終了前に死亡した生存者全員</string>
+    <string name="DBD_DLC8_Slasher_Stat2">ゲーム終了時に死亡した生存者</string>
+    <string name="DBD_DLC7_Slasher_Stat2">犠牲になった執着の対象</string>
+    <string name="DBD_DLC6_Slasher_Stat2">地下の生け贄</string>
+    <string name="DBD_Event1_Stat1">地下には同時に3人以上の吊るし上げられた生存者がいる</string>
+    <string name="DBD_Chapter14_Slasher_Stat1">傷害を負った生存者を吊るす。</string>
+    <string name="DBD_Chapter18_Slasher_Stat2">ゲーム終了時の生存者の吊るし上げ</string>
+    <string name="DBD_Chapter20_Slasher_Stat2">最初の発電機が修理される前に、フックにかかった生存者たち</string>
+    <string name="DBD_DLC9_Slasher_Stat1">フックに生存者がいるブロークンジェネレータ</string>
+    <string name="DBD_Chapter10_Slasher_Stat1">生存者を運んでいるときに生存者を殴る</string>
+    <string name="DBD_Chapter12_Slasher_Stat1">発電機修理の生存者を捕獲</string>
+    <string name="DBD_Chapter13_Slasher_Stat1">クローズドハッチ</string>
+    <string name="DBD_Chapter9_Slasher_Stat1">スタン後のヒット</string>
+    <string name="DBD_Chapter16_Slasher_Stat2">物忘れのある被災者</string>
+    <string name="DBD_Chapter17_Slasher_Stat2">脆弱性の生存者</string>
+    <string name="DBD_Chapter19_Slasher_Stat2">生存者が他の生存者を運んでいるときに落下した</string>
+    <string name="DBD_DLC6_Slasher_Stat1">(カニバル) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_ChainsawHit">(ヒルビリー) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_DLC9_Slasher_Stat2">(クラウン) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_DLC5_Slasher_Stat2">(ハントレス) 生存者が倒れたのは、犯人の能力のせいである (24+ メートル)</string>
+    <string name="DBD_Chapter12_Slasher_Stat2">(ゴーストフェイス) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_Chapter11_Slasher_Stat2">(プレイグ) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_Chapter13_Slasher_Stat2">(デモゴルゴン) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_Chapter14_Slasher_Stat2">(鬼) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_Chapter9_Slasher_Stat2">(スピリット) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_Chapter10_Slasher_Stat2">(リージョン) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_Chapter15_Slasher_Stat1">(デススリンガー) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_Chapter18_Slasher_Stat1">(ツインズ) 生存者が倒れたのは、犯人の能力のせいである</string>
+    <string name="DBD_Chapter20_Slasher_Stat1">(ネメシス) 生存者が倒れたのは、犯人の能力のせいである</string>
+
+    <!--Survs-->
+    <string name="DBD_CamperMaxScoreByCategory">パーフェクトゲーム（全項目で5k点以上</string>
+    <string name="DBD_CamperFullLoadout">設備</string>
+    <string name="DBD_CamperKeepUltraRare">超レアな機能強化はそのままに</string>
+    <string name="DBD_Chapter17_Camper_Stat1">使用項目</string>
+    <string name="DBD_HealPct_float">ヒーリング件数</string>
+    <string name="DBD_Chapter11_Camper_Stat1_float">自分を癒す</string>
+    <string name="DBD_Chapter17_Camper_Stat2_float">他のサバイバーを癒す</string>
+    <string name="DBD_Chapter15_Camper_Stat1">サバイバーズリフト</string>
+    <string name="DBD_UnhookOrHeal">生存者の救出</string>
+    <string name="DBD_UnhookOrHeal_PostExit">ゲーム終盤の生存者救出シーン</string>
+    <string name="DBD_Chapter18_Camper_Stat1">ボードの助けを借りて生存者を救出すること</string>
+    <string name="DBD_Chapter9_Camper_Stat1">ジャンプ・オフ・フック</string>
+    <string name="DBD_SkillCheckSuccess">リアクションチェック通過</string>
+    <string name="DBD_Chapter10_Camper_Stat1">折れたフック</string>
+    <string name="DBD_DLC3_Camper_Stat1">火のトーテムを浄化する</string>
+    <string name="DBD_DLC7_Camper_Stat2">オープンゲート</string>
+    <string name="DBD_GeneratorPct_float">発電機の修理</string>
+    <string name="DBD_Camper8_Stat1">故障した発電機の修理</string>
+    <string name="DBD_DLC7_Camper_Stat1">チェストオープン</string>
+    <string name="DBD_Event1_Stat2">地下のチェスト</string>
+    <string name="DBD_Escape">エスケープ</string>
+    <string name="DBD_EscapeKO">死の間際の脱出</string>
+
+    <string name="DBD_EscapeThroughHatch">ハッチから脱出する</string>
+    <string name="DBD_Chapter12_Camper_Stat2">死の淵にあるマンホールに脱出する</string>
+    <string name="DBD_EscapeNoBlood_Obsession">無事に脱出</string>
+    <string name="DBD_Camper9_Stat2">傷を負っての脱出а</string>
+    <string name="DBD_HookedAndEscape">フックから飛び降りて脱出</string>
+    <string name="DBD_DLC8_Camper_Stat1">一度も倒されずに脱出すること</string>
+    <string name="DBD_CamperNewItem">新しいアイテムでエスケープ</string>
+    <string name="DBD_CamperEscapeWithItemFrom">他人のモノで逃げる</string>
+    <string name="DBD_AllEscapeThroughHatch">生存者全員がハッチから脱出</string>
+
+</resources>
